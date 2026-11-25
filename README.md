@@ -1,4 +1,4 @@
-# smartgenius-app
+# SmartGenius
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-smartgenius-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://smartgenius.app/
+SmartGenius is a social media automation platform that creates and schedules Instagram posts for businesses. It generates copy, designs images in brand colors, and provides a review workflow before publishing. Users can connect their Instagram professional accounts, choose automatic or manual modes, and also request blog articles. The service offers a free starter plan with limited credits and paid plans for higher volume, handling content creation, scheduling, and analytics.
+
+**Areas:** Social Media · Automation · Marketing · Instagram · SaaS
+
+## SmartGenius on APIs.io
+
+Everything profiled for SmartGenius is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smartgenius-app/](https://apis.io/providers/smartgenius-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SmartGenius API](https://apis.io/apis/smartgenius-app/smartgenius-api/) — API for SmartGenius platform providing content creation and scheduling endpoints.
+- [SmartGenius API](https://apis.io/apis/smartgenius-app/smartgenius-app-api/) — SmartGenius API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetOauthDeviceAuthorizationResponse](https://apis.io/schemas/smartgenius-app/smartgenius-app-get-oauth-device-authorization-response/)
+- [GetV1UsageResponse](https://apis.io/schemas/smartgenius-app/smartgenius-app-get-v1-usage-response/)
+- [PostV1ImagesRequest](https://apis.io/schemas/smartgenius-app/smartgenius-app-post-v1-images-request/)
+- [PostV1ProfilesProfileArticlesRequest](https://apis.io/schemas/smartgenius-app/smartgenius-app-post-v1-profiles-profile-articles-request/)
+- [PostV1ProfilesProfilePostsRequest](https://apis.io/schemas/smartgenius-app/smartgenius-app-post-v1-profiles-profile-posts-request/)
+- [PostV1ProfilesRequest](https://apis.io/schemas/smartgenius-app/smartgenius-app-post-v1-profiles-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Smartgenius App Context](https://apis.io/jsonld/smartgenius-app/smartgenius-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SmartGenius API Rules](https://apis.io/rules/smartgenius-app/smartgenius-app-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SmartGenius Domain Security](https://apis.io/security/smartgenius-app/smartgenius-app-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smartgenius.app/)
+- [Documentation](https://smartgenius.app/docs)
+- [Support](https://my.smartgenius.app/login?lang=pt-BR)
+- [Blog](https://blog.smartgenius.app/)
+- [Terms of service](https://smartgenius.app/termos)
+- [Privacy policy](https://smartgenius.app/privacidade)
+
+## API Evangelist rating
+
+**Kin Score 38.0** — thin · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 39.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smartgenius-app/](https://apis.io/providers/smartgenius-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SmartGenius: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smartgenius-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
